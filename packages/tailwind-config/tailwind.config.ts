@@ -6,6 +6,9 @@ const config: Omit<Config, "content"> = {
       borderRadius: {
         '7xl': '3.5rem',
       },
+      fontFamily: {
+        bodoni: ['"Bodoni Moda"', 'serif'], // Ensure quotes around "Bodoni Moda"
+      },
     },
   },
   plugins: [],
