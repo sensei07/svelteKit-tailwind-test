@@ -11,7 +11,7 @@
 	};
 </script>
 
-<header class="absolute z-10 w-full h-32 flex items-center justify-between px-14 lg-px-20">
+<header class="absolute z-10 w-full h-32 flex items-center justify-between px-14 lg:px-20">
 	<button class="flex items-center gap-8 text-white">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@
 			alt="Blonde-haired person in a black backless garment"
 			class="w-full h-full object-cover"
 		/>
-		<div class="absolute inset-0 flex flex-col justify-end w-full gap-40 text-white p-14 lg:p-20">
+		<div class="absolute inset-0 flex flex-col justify-end w-full gap-20 text-white p-14 lg:p-20">
 			<div class="flex items-center justify-between">
 				<p class="text-sm max-w-10">Summer Collection 2020</p>
 				<div class="flex items-center gap-4">
@@ -56,7 +56,7 @@
 					<button>Prev</button>
 				</div>
 			</div>
-			<h1 class="text-7xl font-bold">Summer 2020</h1>
+			<h1 class="text-7xl lg:text-9xl">Summer 2020</h1>
 			<div class="flex justify-between">
 				<ul class="flex gap-4">
 					<li>
