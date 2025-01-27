@@ -1,20 +1,17 @@
 {
-  "name": "with-tailwind",
   "private": true,
   "scripts": {
-    "build": "turbo build",
+    "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "check-types": "turbo check-types",
-    "format": "prettier --write \"**/*.{svelte}\""
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.4.2",
+    "prettier-plugin-svelte": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.10",
     "turbo": "^2.3.3"
   },
   "packageManager": "pnpm@8.15.6",
-  "engines": {
-    "node": ">=18"
-  }
+  "name": "with-svelte"
 }
